@@ -1,0 +1,36 @@
+.container {
+    background-color: #e1e429; 
+    height: 325px;
+     /* color #1F2937 */
+} 
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    
+}
+.leftHeader {
+    font-size: 24px;
+    padding: 12px;
+    font-weight: 700;
+    
+    /* color: #f9faf8; */
+}
+
+ ul a {
+    text-decoration: none;
+    color:inherit;
+    font-size:18px;
+    margin:17px;
+    /*  color:#e5e7eb; */
+}
+
+.containerHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px;
+    
+}

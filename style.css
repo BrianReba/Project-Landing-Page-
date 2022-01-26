@@ -1,36 +1,89 @@
-.container {
-    background-color: #e1e429; 
-    height: 325px;
-     /* color #1F2937 */
-} 
 
-.header {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+p, a {
+    font-size: 1.2em;
+}
+
+header {
+    background-color: #1F2937;
+    color: #FFF;
+}
+
+nav {    
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-between;
     align-items: center;
-    
-}
-.leftHeader {
-    font-size: 24px;
-    padding: 12px;
-    font-weight: 700;
-    
-    /* color: #f9faf8; */
 }
 
- ul a {
+nav a {
     text-decoration: none;
-    color:inherit;
-    font-size:18px;
-    margin:17px;
-    /*  color:#e5e7eb; */
+    color: inherit;
 }
 
-.containerHeader {
+nav li {
+    display: inline-block;
+    padding: 0px 15px ;
+}
+
+nav p {
+    font-size: 2em;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 25px;
+}
+
+#containerHeader {
     display: flex;
+    padding: 100px 0px;
     justify-content: space-around;
     align-items: center;
-    padding: 22px;
-    
+    gap: 5%;
+    font-size: 18px;
+    color: #E5E7EB;
 }
+
+.cardHeader > * {
+    margin: 10px 0px;
+}
+
+.subtext {
+    color: #CCC;
+    font-size: 1.1em;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    padding: 10px 40px;
+    border-radius: 7px;
+    color: #FFF;
+    border: none;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+#header-img {
+    
+    width: 100%;
+}
+
+

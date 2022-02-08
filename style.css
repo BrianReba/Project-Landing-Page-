@@ -7,12 +7,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    flex-shrink: 1;
 }
+
+
 
 h1 {
     font-size: 4em;
     font-weight: bolder;
     color: #F9FAF8;
+}
+
+h2 {
+    font-size: 2em;
 }
 
 p, a {
@@ -80,10 +87,99 @@ nav p {
     font-weight: 800;
     font-size: 1em;
 }
-
+/* hacerlo mas grande */
 #header-img {
     
     width: 100%;
 }
 
+blockquote {
+    display: block;
+    padding-top: 70px;
+    text-align: left;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
 
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #1F2937;
+    color: #FFF;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-img-container {
+    display: flex;
+    justify-content: center;
+    padding: 120px 40px;
+}
+
+.main-img-card {
+    width: 200px;
+    margin: 15px 30px;
+}
+
+.main-img-card img {
+    width: 100%;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    padding: 10px 40px;
+    border-radius: 7px;
+    color: #FFF;
+    border: none;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.subtext-color {
+    color: #CCC;
+    font-size: 1.1em;
+}
+
+.thin-container {
+    width: 45%;
+}
+
+#quote-section {
+    background-color: #E5E7EB;
+}
+
+#quote-section p {
+    text-align: right;
+    font-weight: bold;
+    padding-bottom: 70px;
+}
+
+#sign-up-card {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin: 80px auto;
+    padding: 50px 45px;
+    background-color: #3882F6;
+    color: #FFF;
+}
+
+#sign-up-card button {
+    border: 1px solid #FFF;
+}
+
+#sign-up-card div p {
+    text-align: left;
+}
+
+#sign-up-card div p:first-child {
+    font-weight: bold;
+}
